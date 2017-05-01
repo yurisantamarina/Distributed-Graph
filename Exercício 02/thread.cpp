@@ -30,9 +30,12 @@ void func(){
 	{
 		if(atual==mapa[this_thread::get_id()]){//se for a vez da thread atual
 			int pos = altera();//altera e retorna o indice
+			
 			cout << "Thread " << mapa[this_thread::get_id()] << " alterando o caractere da posicao " << pos << endl;
 			cout << "String atual = " << s << endl << endl;
+			
 			this_thread::sleep_for(chrono::seconds(1));
+			
 			atual++;
 			atual %= 30;
 		}
