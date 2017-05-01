@@ -46,7 +46,7 @@ int main () {
 	{
 		possivel += i;
 	}
-	for (char i = 'a'; i <= 'z'; i++)//criei esse segundo for para preencher a string com as letras possiveis de tal forma que 2/3 dela seja de letras minúsculas, para aumentar a probabilidade de ter letras minúsculas na string aleatóri.
+	for (char i = 'a'; i <= 'z'; i++)//criei esse segundo for para preencher a string com as letras possiveis de tal forma que 2/3 dela seja de letras minúsculas, para aumentar a probabilidade de ter letras minúsculas na string aleatória.
 	{
 		possivel += i;
 	}
