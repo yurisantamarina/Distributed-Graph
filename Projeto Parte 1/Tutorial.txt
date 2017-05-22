@@ -1,0 +1,5 @@
+javac -cp jars/libthrift0.9.3.jar:jars/slf4j-api-1.7.21.jar:gen-java -d . *.java
+
+java -cp jars/libthrift0.9.3.jar:jars/slf4j-api-1.7.21.jar:gen-java:. trabalhopt1.Servidor
+
+java -cp jars/libthrift0.9.3.jar:jars/slf4j-api-1.7.21.jar:gen-java:. trabalhopt1.Cliente
