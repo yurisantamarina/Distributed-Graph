@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen-java"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="lib" path="/home/yuricardoso/Área de Trabalho/jars-thrift/libthrift0.9.3.jar"/>
+	<classpathentry kind="lib" path="/home/yuricardoso/Área de Trabalho/jars-thrift/slf4j-api-1.7.21.jar"/>
+	<classpathentry kind="lib" path="/home/yuricardoso/Área de Trabalho/jars/catalyst-netty-1.1.1.jar"/>
+	<classpathentry kind="lib" path="/home/yuricardoso/Área de Trabalho/jars/copycat-client-1.1.4.jar"/>
+	<classpathentry kind="lib" path="/home/yuricardoso/Área de Trabalho/jars/copycat-server-1.1.4.jar"/>
+	<classpathentry kind="lib" path="/home/yuricardoso/Área de Trabalho/jars/jar_files-Catalyst/catalyst-buffer-1.1.1.jar"/>
+	<classpathentry kind="lib" path="/home/yuricardoso/Área de Trabalho/jars/jar_files-Catalyst/catalyst-common-1.1.1.jar"/>
+	<classpathentry kind="lib" path="/home/yuricardoso/Área de Trabalho/jars/jar_files-Catalyst/catalyst-concurrent-1.1.1.jar"/>
+	<classpathentry kind="lib" path="/home/yuricardoso/Área de Trabalho/jars/jar_files-Catalyst/catalyst-netty-1.1.1.jar"/>
+	<classpathentry kind="lib" path="/home/yuricardoso/Área de Trabalho/jars/jar_files-Catalyst/catalyst-serializer-1.1.1.jar"/>
+	<classpathentry kind="lib" path="/home/yuricardoso/Área de Trabalho/jars/jar_files-Catalyst/catalyst-transport-1.1.1.jar"/>
+	<classpathentry kind="lib" path="/home/yuricardoso/Área de Trabalho/jars/jar_files-Catalyst/netty-buffer-4.0.33.Final.jar"/>
+	<classpathentry kind="lib" path="/home/yuricardoso/Área de Trabalho/jars/jar_files-Catalyst/netty-codec-4.0.33.Final.jar"/>
+	<classpathentry kind="lib" path="/home/yuricardoso/Área de Trabalho/jars/jar_files-Catalyst/netty-common-4.0.33.Final.jar"/>
+	<classpathentry kind="lib" path="/home/yuricardoso/Área de Trabalho/jars/jar_files-Catalyst/netty-handler-4.0.33.Final.jar"/>
+	<classpathentry kind="lib" path="/home/yuricardoso/Área de Trabalho/jars/jar_files-Catalyst/netty-transport-4.0.33.Final.jar"/>
+	<classpathentry kind="lib" path="/home/yuricardoso/Área de Trabalho/jars/jar_files-Catalyst/slf4j-api-1.7.7.jar"/>
+	<classpathentry kind="lib" path="/home/yuricardoso/Área de Trabalho/jars/jar_files-Client/catalyst-buffer-1.1.1.jar"/>
+	<classpathentry kind="lib" path="/home/yuricardoso/Área de Trabalho/jars/jar_files-Client/catalyst-common-1.1.1.jar"/>
+	<classpathentry kind="lib" path="/home/yuricardoso/Área de Trabalho/jars/jar_files-Client/catalyst-concurrent-1.1.1.jar"/>
+	<classpathentry kind="lib" path="/home/yuricardoso/Área de Trabalho/jars/jar_files-Client/catalyst-serializer-1.1.1.jar"/>
+	<classpathentry kind="lib" path="/home/yuricardoso/Área de Trabalho/jars/jar_files-Client/catalyst-transport-1.1.1.jar"/>
+	<classpathentry kind="lib" path="/home/yuricardoso/Área de Trabalho/jars/jar_files-Client/copycat-client-1.1.4.jar"/>
+	<classpathentry kind="lib" path="/home/yuricardoso/Área de Trabalho/jars/jar_files-Client/copycat-protocol-1.1.4.jar"/>
+	<classpathentry kind="lib" path="/home/yuricardoso/Área de Trabalho/jars/jar_files-Client/slf4j-api-1.7.7.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
