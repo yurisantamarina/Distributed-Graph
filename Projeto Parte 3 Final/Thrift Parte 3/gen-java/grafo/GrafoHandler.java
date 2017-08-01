@@ -606,19 +606,19 @@ public class GrafoHandler implements grafo.Iface {
 		
 		Map<String, Integer> pai = new HashMap<String, Integer>();
 		
-		for(int i = 0; i < 10; i++){
-			for(int j = 0; j < 10; j++){
+		for(int i = 0; i < 40; i++){
+			for(int j = 0; j < 40; j++){
 				pai.put(i + "-" + j, j);
 			}
 		}
 		
-		for (int k = 0; k < 10; k++)
+		for (int k = 0; k < 40; k++)
 		{
 			if(!existeVertice(k)) continue;
-			for (int i = 0; i < 10; i++)
+			for (int i = 0; i < 40; i++)
 			{
 				if(!existeVertice(i)) continue;
-				for (int j = 0; j < 10; j++)
+				for (int j = 0; j < 40; j++)
 				{
 					if(!existeVertice(j)) continue;
 					if(getCusto(i, k) + getCusto(k, j) < getCusto(i, j)){
