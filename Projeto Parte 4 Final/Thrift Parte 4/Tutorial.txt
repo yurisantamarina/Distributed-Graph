@@ -1,0 +1,9 @@
+thrift --gen java grafo.thrift
+
+javac -cp jars/libthrift0.9.3.jar:jars/slf4j-api-1.7.21.jar:gen-java -d . *.java
+
+java -cp jars/libthrift0.9.3.jar:jars/slf4j-api-1.7.21.jar:gen-java:. grafo.Server
+java -cp jars/libthrift0.9.3.jar:jars/slf4j-api-1.7.21.jar:gen-java:. grafo.Server1
+java -cp jars/libthrift0.9.3.jar:jars/slf4j-api-1.7.21.jar:gen-java:. grafo.Server2
+
+java -cp jars/libthrift0.9.3.jar:jars/slf4j-api-1.7.21.jar:gen-java:. grafo.Client
