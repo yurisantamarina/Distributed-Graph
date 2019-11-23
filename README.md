@@ -1,3 +1,5 @@
+# A distributed system to manage a graph of cities
+
 ▪ Implemented a fail tolerant and replicated system with Apache Thrift and Copycat that supports queries (e.g., shortest path
 between two cities, how many neighbors a city has, etc.) and updates (e.g., add new cities and roads, edit cities and roads) in
 the graph.
